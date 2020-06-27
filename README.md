@@ -19,8 +19,8 @@
 
 뿌리기 API
  - /spray/request
-     요청 : 뿌리기 금액, 인원수
-     응답 : 토큰
+    - 요청 : 뿌리기 금액, 인원수
+    - 응답 : 토큰
 ```  
     Request :
      { "amount" : 10000 , "person" : 3 }
@@ -29,8 +29,8 @@
 ```
 받기 API
  - /spray/receive
-     요청 : 토큰
-     응답 : 받은금액
+    - 요청 : 토큰
+    - 응답 : 받은금액
 ```
     Request : 
         { "token" , "ABC" }
@@ -39,8 +39,8 @@
 ```
 조회 API
  - /spray/receive
-     요청 : 토큰
-     응답 : 받은금액
+    - 요청 : 토큰
+    - 응답 : 받은금액
 ```
     Request : 
         { "token" , "ABC" }
